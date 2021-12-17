@@ -1,0 +1,30 @@
+// Ques 3 is to read.
+// Ques 4 - Execute the below code and write your description in txt file
+console.log(typeof(1));
+console.log(typeof(1.1));
+console.log(typeof('1.1'));
+console.log(typeof(true));
+console.log(typeof(null));
+console.log(typeof(undefined));
+console.log(typeof([]));
+console.log(typeof({}));
+console.log(typeof(NaN)); 
+
+// output is given below respectively-
+// index.js:3 number
+// index.js:4 number
+// index.js:5 string
+// index.js:6 boolean
+// index.js:7 object
+// index.js:8 undefined
+// index.js:9 object
+// index.js:10 object
+// index.js:11 number
+
+// for discription-
+// 1 . its always number even its decimal or integer also NaN is treated as number.
+// 2 . inside quotes everything is treated as string.
+// 3 . null, array is also treated as object.
+
+//ques 5 is to read about prototypes-
+// object prototypes are the mechanism by which javascript object inherit features from one another.
